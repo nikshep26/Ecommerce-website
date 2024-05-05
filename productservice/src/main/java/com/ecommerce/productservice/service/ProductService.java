@@ -42,6 +42,7 @@ public class ProductService {
         for(Product product : products) {
             returnedProducts.add(convertToDto(product));
         }
+        System.out.println(returnedProducts);
         return returnedProducts;
     }
 }
